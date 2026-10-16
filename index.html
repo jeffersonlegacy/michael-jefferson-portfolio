@@ -3,362 +3,511 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Michael Jefferson — Applied AI &amp; Full-Stack Product Engineer</title>
+    <title>Michael Jefferson — Applied AI &amp; Full-Stack Systems Engineer</title>
     <meta
       name="description"
-      content="Portfolio of Michael Jefferson — Applied AI Engineer, Forward-Deployed Engineer (FDSE), and Full-Stack TypeScript / Next.js Product Builder based in the SF Bay Area / Remote."
+      content="Engineering portfolio and interactive systems workbench of Michael Jefferson — Applied AI Engineer, Forward-Deployed Engineer (FDSE), and Full-Stack TypeScript/Next.js Builder."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <!-- TOP SPECIFICATION BAR -->
+    <div class="spec-bar" role="region" aria-label="Engineer Telemetry Bar">
+      <div class="shell spec-bar-inner">
+        <div class="spec-group">
+          <span class="spec-indicator" aria-hidden="true"></span>
+          <span class="mono">SYS.STATUS // AVAILABLE FOR APPLIED AI · FDSE · FULL-STACK</span>
+        </div>
+        <div class="spec-group mono hide-mobile">
+          <span>LOC: VACAVILLE, CA (I-80 CORRIDOR / SF BAY AREA / US REMOTE)</span>
+          <span class="sep">/</span>
+          <span>RUNTIME: TS · NEXT.JS · VITE · NODE ESM · GEMINI · LIVEKIT</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAVIGATION -->
     <header class="site-header">
-      <div class="container nav-inner">
-        <a href="#top" class="brand">
-          <span class="brand-dot" aria-hidden="true"></span>
-          <span>MICHAEL JEFFERSON</span>
+      <div class="shell nav-grid">
+        <a href="#top" class="brand-lockup">
+          <span class="brand-mark">MJ</span>
+          <div class="brand-text">
+            <span class="brand-name">MICHAEL JEFFERSON</span>
+            <span class="brand-role mono">JEFFERSON LEGACY SYSTEMS</span>
+          </div>
         </a>
-        <nav class="nav-links" aria-label="Primary Navigation">
-          <a href="#systems">Production Systems</a>
-          <a href="#architecture">Architecture</a>
-          <a href="#advantage">Engineering Edge</a>
-          <a href="#resumes">Resumes</a>
+
+        <nav class="primary-nav mono" aria-label="Primary">
+          <a href="#deployments">01.DEPLOYMENTS</a>
+          <a href="#workbench">02.LIVE_WORKBENCH</a>
+          <a href="#architecture">03.ARCHITECTURE</a>
+          <a href="#credentials">04.RESUMES</a>
         </nav>
-        <div class="nav-cta">
+
+        <div class="header-actions">
           <a
             href="https://github.com/jeffersonlegacy"
             target="_blank"
             rel="noopener noreferrer"
-            class="btn btn-ghost"
-            >GitHub</a
+            class="btn-rule mono"
+            >GH // JEFFERSONLEGACY ↗</a
           >
           <a
             href="./resumes/Michael_Jefferson_Applied_AI_Engineer_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            class="btn btn-primary"
-            >Resume PDF</a
+            class="btn-solid mono"
+            >RESUME.PDF ↓</a
           >
         </div>
       </div>
     </header>
 
-    <main id="top">
-      <!-- HERO -->
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <div class="eyebrow">
-              <span class="status-pill">Available for Applied AI · FDSE · Full-Stack Roles</span>
-              <span class="location-tag">SF Bay Area (Vacaville, CA) &amp; 100% US Remote</span>
-            </div>
-            <h1>
-              Shipping deterministic <span class="gradient-text">Applied AI</span> &amp; real-time
-              <span class="gradient-text">Full-Stack</span> systems to production.
-            </h1>
-            <p class="lead">
-              Full-Stack TypeScript/JavaScript Engineer specializing in production
-              <strong>Next.js App Router</strong> and <strong>Vite</strong> architectures,
-              <strong>multimodal Gemini/Vertex AI &amp; OCR pipelines</strong>,
-              <strong>cryptographic LiveKit WebRTC streaming</strong>, and
-              <strong>automated Playwright/Python QA workflows</strong>.
-            </p>
-            <div class="hero-actions">
-              <a href="#systems" class="btn btn-primary btn-lg">Explore 5 Production Case Studies</a>
-              <a
-                href="./resumes/Michael_Jefferson_Applied_AI_Engineer_Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn btn-secondary btn-lg"
-                >Applied AI Resume (PDF)</a
-              >
-              <a
-                href="./resumes/Michael_Jefferson_FDSE_Solutions_Engineer_Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn btn-ghost btn-lg"
-                >Forward-Deployed (FDSE) PDF</a
-              >
-            </div>
-          </div>
+    <main id="top" class="shell main-grid">
+      <!-- HERO SECTION -->
+      <section class="hero-frame">
+        <div class="hero-left">
+          <p class="section-index mono">INDEX // 00 — APPLIED AI &amp; FULL-STACK PRODUCT ENGINEERING</p>
+          <h1 class="hero-title">
+            Production web systems wired with <span class="serif-italic">deterministic</span> AI, multimodal OCR, and real-time WebRTC.
+          </h1>
+          <p class="hero-lead">
+            I architect, build, and deploy full-stack <strong>TypeScript / Next.js</strong> and <strong>Vite / Node.js ESM</strong> applications that turn probabilistic LLM and Vision models into strict, reliable business software. Backed by a degree in <strong>Psychology &amp; Neuroscience</strong> (Sarah Lawrence College) and <strong>7+ years of quantitative mathematics instruction</strong>.
+          </p>
 
-          <aside class="hero-telemetry" aria-label="Production Telemetry Summary">
-            <div class="telemetry-card">
-              <div class="telemetry-header">
-                <span class="mono-label">PRODUCTION TELEMETRY</span>
-                <span class="live-indicator">5 SHIPPED SYSTEMS</span>
-              </div>
-              <dl class="metric-grid">
-                <div class="metric-box">
-                  <dt>Core Stack</dt>
-                  <dd>TypeScript · Next.js · Vite · Node ESM</dd>
-                </div>
-                <div class="metric-box">
-                  <dt>AI &amp; Vision</dt>
-                  <dd>Gemini Vision · Vertex AI · OCR · Ollama</dd>
-                </div>
-                <div class="metric-box">
-                  <dt>Real-Time &amp; Comms</dt>
-                  <dd>LiveKit WebRTC · Twilio 10DLC · Firebase</dd>
-                </div>
-                <div class="metric-box">
-                  <dt>QA &amp; Infra</dt>
-                  <dd>Playwright · Vitest · Vercel · Render IaC</dd>
-                </div>
-              </dl>
-              <div class="quick-links">
-                <a
-                  href="https://axion-tax.vercel.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="quick-link"
-                >
-                  <span>01 · Axion Tax B2B Portal</span>
-                  <span class="mono-arrow">axion-tax.vercel.app ↗</span>
-                </a>
-                <a
-                  href="https://tower-hour.vercel.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="quick-link"
-                >
-                  <span>02 · Agora Explorer / Tower Hour</span>
-                  <span class="mono-arrow">tower-hour.vercel.app ↗</span>
-                </a>
-                <a
-                  href="https://github.com/jeffersonlegacy/axion-tax"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="quick-link"
-                >
-                  <span>03 · Axion Tax Source &amp; Architecture</span>
-                  <span class="mono-arrow">github.com/jeffersonlegacy ↗</span>
-                </a>
-              </div>
-            </div>
-          </aside>
-        </div>
-      </section>
-
-      <!-- CASE STUDIES -->
-      <section id="systems" class="section">
-        <div class="container">
-          <div class="section-header">
-            <p class="mono-label">01 / PRODUCTION CASE STUDIES</p>
-            <h2>Five End-to-End Engineered Systems</h2>
-            <p class="section-sub">
-              Every system below was scoped, architected, and deployed to solve a concrete operational or cognitive bottleneck.
-            </p>
-          </div>
-
-          <div class="case-grid">
-            <!-- Case 01 -->
-            <article class="case-card featured">
-              <div class="case-meta">
-                <span class="case-num">CASE 01 · B2B FINTECH &amp; OCR AUTOMATION</span>
-                <div class="case-links">
-                  <a href="https://axion-tax.vercel.app" target="_blank" rel="noopener noreferrer" class="badge-link">Live Portal ↗</a>
-                  <a href="https://github.com/jeffersonlegacy/axion-tax" target="_blank" rel="noopener noreferrer" class="badge-link">GitHub Repo ↗</a>
-                </div>
-              </div>
-              <h3>Axion Tax &amp; Beyond — Intelligent B2B Tax Intake &amp; Automated QA Pipeline</h3>
-              <p class="case-problem">
-                <strong>The Bottleneck:</strong> Independent tax agencies lose hundreds of billable hours every season to fragmented paper drop-offs, incomplete W-2/1099 email attachments, and repetitive deduction questions.
-              </p>
-              <ul class="case-highlights">
-                <li>
-                  <strong>Decoupled Edge + ESM Architecture:</strong> Paired a responsive <code>Vite + React</code> SPA on <strong>Vercel</strong> with a stateful <code>Node.js ESM</code> API (<code>server/index.mjs</code>) hardened with <code>helmet</code> and rate limiting, deployed declaratively via <code>render.yaml</code>.
-                </li>
-                <li>
-                  <strong>OCR Ingestion &amp; Self-Service Domain Engines:</strong> Multi-lane document upload workflow (<code>jobs</code>, <code>business</code>, <code>personal</code>), interactive <strong>Schedule C &amp; Write-Off Discovery Wizards</strong>, and bilingual (EN/ES) <strong>Twilio SMS + Resend Email</strong> alerts.
-                </li>
-                <li>
-                  <strong>Programmatic Playwright → Python PDF Pipeline:</strong> Headless <strong>Playwright</strong> captures deterministic full-bleed UI states into <code>output/playwright/</code>, while <code>build_axion_pitch_deck.py</code> compiles an executive stakeholder PDF deck automatically.
-                </li>
-              </ul>
-              <div class="tag-row">
-                <span>Vite</span><span>React</span><span>Node.js ESM</span><span>Express</span><span>Twilio</span><span>Resend</span><span>Playwright</span><span>Python ReportLab</span><span>Render IaC</span>
-              </div>
-            </article>
-
-            <!-- Case 02 -->
-            <article class="case-card featured">
-              <div class="case-meta">
-                <span class="case-num">CASE 02 · REAL-TIME WEBRTC &amp; MULTIMODAL AI</span>
-                <div class="case-links">
-                  <a href="https://tower-hour.vercel.app" target="_blank" rel="noopener noreferrer" class="badge-link">Live Showroom ↗</a>
-                </div>
-              </div>
-              <h3>Agora Explorer Live (<code>tower-hour</code>) — WebRTC Social Commerce &amp; AI Vision Scanner</h3>
-              <p class="case-problem">
-                <strong>The Bottleneck:</strong> Live social commerce breaks when video stream latency drifts out of sync with inventory state, when mobile attendees drop out without an SMS re-engagement loop, or when cloud video rendering scales poorly.
-              </p>
-              <ul class="case-highlights">
-                <li>
-                  <strong>Cryptographic LiveKit RBAC &amp; Split Storage:</strong> Server-side JWT minting (<code>/api/livekit/token</code>) isolates broadcaster publish privileges from viewer subscribe tokens, synchronized across <strong>Firebase Firestore &amp; Realtime Database</strong>.
-                </li>
-                <li>
-                  <strong>Bidirectional Twilio 10DLC SMS State Machine:</strong> Automated outbound invite orchestration and inbound webhook parsing (<code>/api/twilio/inbound</code>) for RSVP transitions and A2P compliance tracking.
-                </li>
-                <li>
-                  <strong>Multimodal AI Product Scanner &amp; Local Remotion Worker:</strong> Combines <code>Tesseract.js</code>, <code>ZXing</code>, and <code>Vertex AI / Gemini</code> (<code>/api/scan</code>) to match photographed products across <strong>373 catalog SKUs</strong>, backed by a zero-cloud-cost local <strong>Remotion</strong> video worker and <strong>Sentry</strong> observability.
-                </li>
-              </ul>
-              <div class="tag-row">
-                <span>Next.js App Router</span><span>TypeScript</span><span>LiveKit WebRTC</span><span>Vertex AI / Gemini</span><span>Firebase</span><span>Twilio 10DLC</span><span>Remotion</span><span>Vitest</span><span>Sentry</span>
-              </div>
-            </article>
-
-            <!-- Case 03 -->
-            <article class="case-card">
-              <div class="case-meta">
-                <span class="case-num">CASE 03 · MULTIMODAL DOCUMENT INTELLIGENCE</span>
-              </div>
-              <h3>Jefferson Super Reader 3000 — Vision OCR &amp; RSVP Streaming Engine</h3>
-              <p class="case-problem">
-                <strong>The Bottleneck:</strong> Standard PDF parsers strip semantic layout and choke on multi-column text or scanned documents, ruining Rapid Serial Visual Presentation (RSVP) speed reading.
-              </p>
-              <ul class="case-highlights">
-                <li>
-                  <strong>CloudConvert + Gemini Vision Pipeline:</strong> Asynchronous document-to-frame normalization feeding <strong>Gemini Vision</strong> to extract reading-order token streams while stripping header/footer noise.
-                </li>
-                <li>
-                  <strong>Zero-Lag ORP Renderer:</strong> Client-side scheduler calculating the exact <strong>Optimal Recognition Point (ORP)</strong> focal anchor with punctuation-weighted cadence modulation.
-                </li>
-              </ul>
-              <div class="tag-row">
-                <span>TypeScript</span><span>Gemini Vision API</span><span>CloudConvert API</span><span>React</span><span>ORP Algorithm</span>
-              </div>
-            </article>
-
-            <!-- Case 04 -->
-            <article class="case-card">
-              <div class="case-meta">
-                <span class="case-num">CASE 04 · DETERMINISTIC AI &amp; FINANCIAL SIMULATION</span>
-              </div>
-              <h3>Customatter &amp; Coach Mike AI — Structured Psychometrics &amp; PV/BV Engine</h3>
-              <p class="case-problem">
-                <strong>The Bottleneck:</strong> Unconstrained LLM text is non-deterministic and unusable for quantitative graphing or precision multi-tier compensation math.
-              </p>
-              <ul class="case-highlights">
-                <li>
-                  <strong>Strict Gemini JSON Schema Enforcement:</strong> Constrained LLM outputs to typed numerical schemas driving interactive <strong>Chart.js</strong> radar telemetry and compatibility matrices with zero parsing failures.
-                </li>
-                <li>
-                  <strong>3%–25% Tiered PV/BV Simulator:</strong> Decoupled static JSON catalog source of truth paired with real-time volume aggregation and interactive <strong>H5P</strong> education modules.
-                </li>
-              </ul>
-              <div class="tag-row">
-                <span>Next.js</span><span>TypeScript</span><span>Gemini Structured Outputs</span><span>Chart.js</span><span>Tailwind CSS</span><span>H5P</span>
-              </div>
-            </article>
-
-            <!-- Case 05 -->
-            <article class="case-card full-span">
-              <div class="case-meta">
-                <span class="case-num">CASE 05 · DISTRIBUTED INFERENCE &amp; CONTEXT ARCHITECTURE</span>
-              </div>
-              <h3>Multi-Node Local LLM Inference Server &amp; File-First Agent Mesh</h3>
-              <p class="case-problem">
-                <strong>The Bottleneck:</strong> Cloud-only LLM workflows create recurring API cost spikes, privacy bottlenecks, and severe context drift across multi-repository refactors.
-              </p>
-              <ul class="case-highlights">
-                <li>
-                  <strong>Headless Debian Linux + Tuned <code>zram</code> Node:</strong> Provisioned a dedicated local <strong>Ollama</strong> inference server bridged over a <strong>2.5GbE wired LAN backbone</strong> and <strong>Tailscale mesh VPN</strong> to an M2 Mac mini workstation.
-                </li>
-                <li>
-                  <strong>Deterministic Context Routing (<code>Agent Desk</code>):</strong> File-first Markdown routing system governing <strong>OpenClaw</strong>, <strong>Codex</strong>, and <strong>Cursor</strong> agents to enforce strict token economy and zero-regression verification across repositories.
-                </li>
-              </ul>
-              <div class="tag-row">
-                <span>Debian Linux</span><span>Ollama</span><span>zram Tuning</span><span>2.5GbE LAN</span><span>Tailscale VPN</span><span>OpenClaw</span><span>Context Engineering</span>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- ARCHITECTURE TOPOLOGY -->
-      <section id="architecture" class="section section-alt">
-        <div class="container">
-          <div class="section-header">
-            <p class="mono-label">02 / ARCHITECTURAL TOPOLOGY</p>
-            <h2>How I Architect Production AI Systems</h2>
-          </div>
-
-          <div class="arch-grid">
-            <div class="arch-panel">
-              <h3>1. Decoupled Edge + Stateful Workers</h3>
-              <p>
-                Static and SSR viewports deploy to <strong>Vercel Edge</strong> (<code>Next.js App Router</code> / <code>Vite</code>), while long-running OCR, webhook state machines, and video workers run on isolated <strong>Node.js ESM services</strong> (<code>Render IaC</code>) or local <strong>Remotion / Ollama</strong> nodes.
-              </p>
-            </div>
-            <div class="arch-panel">
-              <h3>2. Deterministic AI Contracts</h3>
-              <p>
-                Never trust raw conversational LLM strings in production UI. Every AI boundary enforces <strong>strict JSON schemas</strong>, <strong>Zod runtime contracts</strong>, or multi-stage OCR normalization before touching application state.
-              </p>
-            </div>
-            <div class="arch-panel">
-              <h3>3. Programmatic Visual &amp; E2E Verification</h3>
-              <p>
-                Every production workflow is verified through <strong>Playwright</strong> headless browser captures, <strong>Vitest</strong> unit/integration suites, SKU asset integrity gates, and automated <strong>Python ReportLab</strong> executive reporting.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- COGNITIVE & FDSE ADVANTAGE -->
-      <section id="advantage" class="section">
-        <div class="container">
-          <div class="section-header">
-            <p class="mono-label">03 / THE UNFAIR ADVANTAGE</p>
-            <h2>Cognitive Systems + Forward-Deployed Execution</h2>
-          </div>
-
-          <div class="advantage-grid">
-            <div class="adv-card">
-              <span class="adv-kicker">PSYCHOLOGY &amp; NEUROSCIENCE (SARAH LAWRENCE COLLEGE)</span>
-              <h3>Human-in-the-Loop &amp; Context Engineering</h3>
-              <p>
-                Understanding human cognitive load and information processing directly informs how I design AI prompts, structured schemas, and low-friction user interfaces—turning probabilistic models into tools people immediately trust.
-              </p>
-            </div>
-            <div class="adv-card">
-              <span class="adv-kicker">7+ YEARS QUANTITATIVE STEM INSTRUCTION</span>
-              <h3>Client-Facing Forward-Deployed Clarity</h3>
-              <p>
-                Seven years of teaching Algebra and Geometry trained me to sit with any stakeholder, translate ambiguous operational pain into rigorous system logic, and onboard non-technical teams without jargon.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- RESUMES & CONTACT -->
-      <section id="resumes" class="section section-alt">
-        <div class="container resume-cta-box">
-          <div>
-            <p class="mono-label">04 / READY FOR IMMEDIATE DEPLOYMENT</p>
-            <h2>Download Tailored ATS Resumes</h2>
-            <p class="section-sub">
-              Based in Vacaville, CA — positioned for 100% US Remote roles and San Francisco / East Bay hybrid or client onsites.
-            </p>
-          </div>
-          <div class="resume-buttons">
+          <div class="hero-cta-row">
+            <a href="#workbench" class="btn-solid btn-large mono">LAUNCH INTERACTIVE WORKBENCH ↓</a>
             <a
               href="./resumes/Michael_Jefferson_Applied_AI_Engineer_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              class="btn btn-primary btn-lg"
-              >Download Applied AI &amp; Full-Stack Resume (PDF)</a
+              class="btn-rule btn-large mono"
+              >APPLIED AI RESUME (PDF) ↗</a
             >
             <a
               href="./resumes/Michael_Jefferson_FDSE_Solutions_Engineer_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              class="btn btn-secondary btn-lg"
-              >Download Forward-Deployed (FDSE) Resume (PDF)</a
+              class="btn-rule btn-large mono"
+              >FORWARD-DEPLOYED (FDSE) PDF ↗</a
+            >
+          </div>
+        </div>
+
+        <aside class="hero-right" aria-label="Live Production Endpoints">
+          <div class="panel-header mono">
+            <span>VERIFIED PRODUCTION ENDPOINTS</span>
+            <span class="accent-text">7 LIVE DEPLOYMENTS</span>
+          </div>
+          <ul class="endpoint-list">
+            <li>
+              <a href="https://axion-tax-beyond.vercel.app" target="_blank" rel="noopener noreferrer">
+                <div class="ep-top">
+                  <span class="ep-id mono">SYS-01</span>
+                  <span class="ep-name">Axion Tax &amp; Beyond (B2B OCR Portal)</span>
+                  <span class="ep-url mono">axion-tax-beyond.vercel.app ↗</span>
+                </div>
+                <p class="ep-desc mono">Vite SPA + Node ESM API + Schedule C Wizard + Playwright/Python PDF Pipeline</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://tower-hour.vercel.app" target="_blank" rel="noopener noreferrer">
+                <div class="ep-top">
+                  <span class="ep-id mono">SYS-02</span>
+                  <span class="ep-name">Agora Explorer Live / Tower Hour</span>
+                  <span class="ep-url mono">tower-hour.vercel.app ↗</span>
+                </div>
+                <p class="ep-desc mono">Next.js 16 + TypeScript + LiveKit WebRTC RBAC + Twilio 10DLC + Vertex AI Scanner</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://jefferson-super-reader-3000.vercel.app" target="_blank" rel="noopener noreferrer">
+                <div class="ep-top">
+                  <span class="ep-id mono">SYS-03</span>
+                  <span class="ep-name">Jefferson Super Reader 3000</span>
+                  <span class="ep-url mono">jefferson-super-reader-3000.vercel.app ↗</span>
+                </div>
+                <p class="ep-desc mono">CloudConvert Async Pipeline + Gemini Vision OCR + Zero-Lag ORP RSVP Engine</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://coach-mike-ai.vercel.app" target="_blank" rel="noopener noreferrer">
+                <div class="ep-top">
+                  <span class="ep-id mono">SYS-04A</span>
+                  <span class="ep-name">Coach Mike AI Psychometrics</span>
+                  <span class="ep-url mono">coach-mike-ai.vercel.app ↗</span>
+                </div>
+                <p class="ep-desc mono">Strict Gemini JSON Schema Enforcement + Real-Time Radar Telemetry</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://customatter.vercel.app" target="_blank" rel="noopener noreferrer">
+                <div class="ep-top">
+                  <span class="ep-id mono">SYS-04B</span>
+                  <span class="ep-name">Customatter Commerce &amp; PV/BV Engine</span>
+                  <span class="ep-url mono">customatter.vercel.app ↗</span>
+                </div>
+                <p class="ep-desc mono">373-SKU Static JSON Catalog + 3%–25% Multi-Tier Differential Simulator</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://homelab-agent-mesh.vercel.app" target="_blank" rel="noopener noreferrer">
+                <div class="ep-top">
+                  <span class="ep-id mono">SYS-05</span>
+                  <span class="ep-name">Multi-Node Local LLM &amp; Agent Mesh</span>
+                  <span class="ep-url mono">homelab-agent-mesh.vercel.app ↗</span>
+                </div>
+                <p class="ep-desc mono">Debian Linux (zram) + Ollama + 2.5GbE LAN / Tailscale + Agent Desk Router</p>
+              </a>
+            </li>
+          </ul>
+        </aside>
+      </section>
+
+      <!-- SECTION 01: PRODUCTION DEPLOYMENTS MATRIX -->
+      <section id="deployments" class="section-block">
+        <div class="section-bar">
+          <div>
+            <p class="section-index mono">SECTION // 01 — PRODUCTION CASE STUDIES</p>
+            <h2 class="section-heading">Shipped Systems &amp; Architectural Proof</h2>
+          </div>
+          <p class="section-note mono">EVERY SYSTEM INCLUDES PUBLIC SOURCE + LIVE VERIFIED DEPLOYMENT</p>
+        </div>
+
+        <div class="systems-ledger">
+          <!-- CASE 01 -->
+          <article class="ledger-row">
+            <div class="ledger-meta">
+              <span class="ledger-num mono">01 / B2B FINTECH &amp; OCR</span>
+              <h3 class="ledger-title">Axion Tax &amp; Beyond</h3>
+              <p class="ledger-sub">Intelligent B2B Tax Intake, OCR Client Portal &amp; Automated QA Pipeline</p>
+              <div class="ledger-links mono">
+                <a href="https://axion-tax-beyond.vercel.app" target="_blank" rel="noopener noreferrer" class="link-chip">LIVE PORTAL ↗</a>
+                <a href="https://github.com/jeffersonlegacy/axion-tax" target="_blank" rel="noopener noreferrer" class="link-chip">GITHUB REPO ↗</a>
+              </div>
+            </div>
+            <div class="ledger-body">
+              <div class="spec-columns">
+                <div>
+                  <h4 class="mono">OPERATIONAL BOTTLENECK</h4>
+                  <p>Independent tax agencies lose hundreds of billable hours each season to fragmented paper drop-offs, incomplete W-2/1099 attachments, and repetitive Schedule C deduction questions.</p>
+                </div>
+                <div>
+                  <h4 class="mono">SYSTEM ARCHITECTURE</h4>
+                  <p>Decoupled <strong>Vite + React 19 SPA</strong> on Vercel paired with a stateful <strong>Node.js ESM Express 5 API</strong> (<code>server/index.mjs</code>) hardened with <code>helmet</code>, compression, and rate-limiting, deployed declaratively via <code>render.yaml</code>.</p>
+                </div>
+              </div>
+              <ul class="proof-list">
+                <li><strong>Multi-Lane Document Intake &amp; Bilingual Comms:</strong> Categorized upload lanes (<code>jobs</code>, <code>business</code>, <code>personal</code>) with token-authenticated client workspaces and bilingual (EN/ES) <strong>Twilio SMS + Resend Email</strong> status notifications.</li>
+                <li><strong>Self-Service Tax Engines:</strong> Interactive <strong>Schedule C Expense Wizard</strong>, <strong>Write-Off Discovery Engine</strong>, and bilingual <strong>Tax Glossary</strong> that pre-qualify deductions prior to advisor appointments.</li>
+                <li><strong>Programmatic Playwright → Python PDF Pipeline:</strong> Headless <strong>Playwright</strong> captures deterministic UI states across key user journeys into <code>output/playwright/</code>, while <code>build_axion_pitch_deck.py</code> compiles an executive ReportLab PDF deck in one command.</li>
+              </ul>
+              <div class="stack-strip mono">
+                <span>VITE 7</span><span>REACT 19</span><span>NODE.JS ESM</span><span>EXPRESS 5</span><span>TWILIO SMS</span><span>RESEND</span><span>PLAYWRIGHT</span><span>PYTHON REPORTLAB</span><span>RENDER IAC</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CASE 02 -->
+          <article class="ledger-row">
+            <div class="ledger-meta">
+              <span class="ledger-num mono">02 / WEBRTC &amp; MULTIMODAL AI</span>
+              <h3 class="ledger-title">Agora Explorer Live (<code>tower-hour</code>)</h3>
+              <p class="ledger-sub">Real-Time WebRTC Social Commerce, AI Vision Scanner &amp; Event Engine</p>
+              <div class="ledger-links mono">
+                <a href="https://tower-hour.vercel.app" target="_blank" rel="noopener noreferrer" class="link-chip">LIVE SHOWROOM ↗</a>
+                <a href="https://github.com/jeffersonlegacy/tower-hour" target="_blank" rel="noopener noreferrer" class="link-chip">GITHUB REPO ↗</a>
+              </div>
+            </div>
+            <div class="ledger-body">
+              <div class="spec-columns">
+                <div>
+                  <h4 class="mono">OPERATIONAL BOTTLENECK</h4>
+                  <p>Live social shopping fails when video stream latency drifts out of sync with active product state, when mobile viewers drop off without SMS re-engagement, or when cloud video rendering scales linearly with SKU count.</p>
+                </div>
+                <div>
+                  <h4 class="mono">SYSTEM ARCHITECTURE</h4>
+                  <p>Built on <strong>Next.js 16 App Router</strong> and <strong>TypeScript 6</strong>, combining <strong>LiveKit WebRTC</strong> with split-storage <strong>Firebase (Firestore + Realtime Database)</strong> across 40 compiled routes and a 373-SKU catalog.</p>
+                </div>
+              </div>
+              <ul class="proof-list">
+                <li><strong>Cryptographic LiveKit RBAC Tokens:</strong> Server-side JWT minting (<code>/api/livekit/token</code>) strictly separates host broadcast permissions (<code>/host</code>) from viewer subscribe-only tokens (<code>/live/[eventId]</code>).</li>
+                <li><strong>Bidirectional Twilio 10DLC SMS State Machine:</strong> Outbound invite orchestration (<code>/api/invites/send</code>) and inbound webhook parsing (<code>/api/twilio/inbound</code>) managing RSVP transitions and A2P compliance telemetry.</li>
+                <li><strong>Multimodal AI Product Scanner &amp; Local Remotion Worker:</strong> Combines <code>Tesseract.js</code>, <code>ZXing</code>, and <code>Vertex AI / Gemini</code> (<code>/api/scan</code>) to map photographed household goods to catalog replacements, paired with a zero-cloud-cost local <strong>Remotion</strong> video worker and <strong>Sentry</strong> observability.</li>
+              </ul>
+              <div class="stack-strip mono">
+                <span>NEXT.JS 16</span><span>TYPESCRIPT</span><span>LIVEKIT WEBRTC</span><span>VERTEX AI / GEMINI</span><span>TESSERACT OCR</span><span>FIREBASE</span><span>TWILIO 10DLC</span><span>REMOTION</span><span>VITEST</span><span>SENTRY</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CASE 03 -->
+          <article class="ledger-row">
+            <div class="ledger-meta">
+              <span class="ledger-num mono">03 / DOCUMENT INTELLIGENCE</span>
+              <h3 class="ledger-title">Jefferson Super Reader 3000</h3>
+              <p class="ledger-sub">Multimodal Vision OCR &amp; Optimal Recognition Point (ORP) RSVP Pipeline</p>
+              <div class="ledger-links mono">
+                <a href="https://jefferson-super-reader-3000.vercel.app" target="_blank" rel="noopener noreferrer" class="link-chip">LIVE INSTRUMENT ↗</a>
+                <a href="https://github.com/jeffersonlegacy/jefferson-super-reader-3000" target="_blank" rel="noopener noreferrer" class="link-chip">GITHUB REPO ↗</a>
+              </div>
+            </div>
+            <div class="ledger-body">
+              <div class="spec-columns">
+                <div>
+                  <h4 class="mono">OPERATIONAL BOTTLENECK</h4>
+                  <p>Traditional PDF text extractors scramble multi-column layouts, tables, and scanned documents—injecting running headers and hyphenation artifacts into Rapid Serial Visual Presentation (RSVP) streams.</p>
+                </div>
+                <div>
+                  <h4 class="mono">SYSTEM ARCHITECTURE</h4>
+                  <p>Two-stage asynchronous ingestion pipeline pairing <strong>CloudConvert job normalization</strong> with <strong>Gemini Vision multimodal extraction</strong> and a deterministic client-side ORP cadence scheduler.</p>
+                </div>
+              </div>
+              <ul class="proof-list">
+                <li><strong>Layout-Aware Vision Extraction:</strong> Converts arbitrary document pages into normalized frames, using Gemini Vision to extract clean reading-order prose while stripping margin/footer noise.</li>
+                <li><strong>Deterministic ORP Alignment &amp; Cadence Weighting:</strong> Computes exact focal-character indices (~35% word offset) and applies dynamic frame multipliers on clause and sentence punctuation (`1.5x–2.1x`).</li>
+              </ul>
+              <div class="stack-strip mono">
+                <span>TYPESCRIPT</span><span>GEMINI VISION API</span><span>CLOUDCONVERT API</span><span>ORP CADENCE ENGINE</span><span>WEB AUDIO / RAF SCHEDULER</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CASE 04 -->
+          <article class="ledger-row">
+            <div class="ledger-meta">
+              <span class="ledger-num mono">04 / DETERMINISTIC SCHEMAS</span>
+              <h3 class="ledger-title">Coach Mike AI &amp; Customatter</h3>
+              <p class="ledger-sub">Structured-Output AI Psychometrics &amp; 3%–25% Multi-Tier Commerce Engine</p>
+              <div class="ledger-links mono">
+                <a href="https://coach-mike-ai.vercel.app" target="_blank" rel="noopener noreferrer" class="link-chip">COACH MIKE LIVE ↗</a>
+                <a href="https://customatter.vercel.app" target="_blank" rel="noopener noreferrer" class="link-chip">CUSTOMATTER LIVE ↗</a>
+                <a href="https://github.com/jeffersonlegacy/coach-mike-ai" target="_blank" rel="noopener noreferrer" class="link-chip">GH: COACH MIKE ↗</a>
+                <a href="https://github.com/jeffersonlegacy/customatter" target="_blank" rel="noopener noreferrer" class="link-chip">GH: CUSTOMATTER ↗</a>
+              </div>
+            </div>
+            <div class="ledger-body">
+              <div class="spec-columns">
+                <div>
+                  <h4 class="mono">OPERATIONAL BOTTLENECK</h4>
+                  <p>Free-form LLM completions cannot be safely bound to quantitative UI charts, and hardcoded catalog pricing breaks multi-tier Personal/Business Volume (PV/BV) compensation modeling.</p>
+                </div>
+                <div>
+                  <h4 class="mono">SYSTEM ARCHITECTURE</h4>
+                  <p>Strict <code>responseSchema</code> JSON contracts over <strong>Gemini API</strong> driving <strong>Chart.js</strong> psychometric telemetry, paired with a decoupled 373-SKU JSON catalog and reactive PV/BV differential simulator.</p>
+                </div>
+              </div>
+              <ul class="proof-list">
+                <li><strong>Zero-Failure Structured Outputs:</strong> Enforces typed JSON schemas for 5-axis temperament vectors, interpersonal friction matrices, and coaching interventions.</li>
+                <li><strong>Reactive 3%–25% PV/BV Compensation Ledger:</strong> Models group volume brackets, pass-up differential bonuses, and retail margin across multi-leg structures in real time.</li>
+              </ul>
+              <div class="stack-strip mono">
+                <span>GEMINI STRUCTURED OUTPUTS</span><span>JSON SCHEMA</span><span>CHART.JS</span><span>NEXT.JS</span><span>TYPESCRIPT</span><span>H5P MODULES</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CASE 05 -->
+          <article class="ledger-row">
+            <div class="ledger-meta">
+              <span class="ledger-num mono">05 / DISTRIBUTED AI INFRA</span>
+              <h3 class="ledger-title">Multi-Node Local LLM &amp; Agent Mesh</h3>
+              <p class="ledger-sub">Headless Debian Inference Server, 2.5GbE/Tailscale Mesh &amp; File-First Context Router</p>
+              <div class="ledger-links mono">
+                <a href="https://homelab-agent-mesh.vercel.app" target="_blank" rel="noopener noreferrer" class="link-chip">LIVE TELEMETRY CONSOLE ↗</a>
+                <a href="https://github.com/jeffersonlegacy/homelab-agent-mesh" target="_blank" rel="noopener noreferrer" class="link-chip">GITHUB REPO ↗</a>
+              </div>
+            </div>
+            <div class="ledger-body">
+              <div class="spec-columns">
+                <div>
+                  <h4 class="mono">OPERATIONAL BOTTLENECK</h4>
+                  <p>Cloud-only LLM coding loops cause API cost spikes and severe context bloat when agents scan entire multi-project filesystems.</p>
+                </div>
+                <div>
+                  <h4 class="mono">SYSTEM ARCHITECTURE</h4>
+                  <p>Headless <strong>Debian Linux</strong> node (tuned kernel <code>zram</code> swap) serving local <strong>Ollama</strong> models over a <strong>2.5GbE wired LAN</strong> and <strong>Tailscale VPN</strong> to an M2 Mac mini, governed by <code>agentdesk</code> and <strong>OpenClaw Agora</strong>.</p>
+                </div>
+              </div>
+              <ul class="proof-list">
+                <li><strong>Token-Efficient Context Routing (<code>agentdesk</code>):</strong> Directs coding agents (<code>OpenClaw</code>, <code>Codex</code>, <code>Cursor</code>) to minimal task-scoped playbooks rather than full-disk scans.</li>
+                <li><strong>Multi-Agent Council Governance:</strong> Enforces 5-phase state transitions (`INTAKE → PLAN → EXECUTE → VERIFY → SYNTHESIZE`) with SQLite WAL audit ledgers.</li>
+              </ul>
+              <div class="stack-strip mono">
+                <span>DEBIAN LINUX</span><span>KERNEL ZRAM</span><span>OLLAMA</span><span>2.5GBE LAN</span><span>TAILSCALE MESH</span><span>OPENCLAW AGORA</span><span>PYTHON</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION 02: INTERACTIVE ENGINEERING WORKBENCH -->
+      <section id="workbench" class="section-block">
+        <div class="section-bar">
+          <div>
+            <p class="section-index mono">SECTION // 02 — INTERACTIVE ENGINEERING WORKBENCH</p>
+            <h2 class="section-heading">Test Core Algorithms Directly in Browser</h2>
+          </div>
+          <p class="section-note mono">ZERO MOCKS · REAL CLIENT-SIDE EXECUTION OF PRODUCTION ALGORITHMS</p>
+        </div>
+
+        <div class="workbench-grid">
+          <!-- WORKBENCH A: ORP RSVP ENGINE -->
+          <div class="wb-panel">
+            <div class="panel-header mono">
+              <span>WORKBENCH 01 // ORP RSVP TOKEN STREAMER</span>
+              <a href="https://jefferson-super-reader-3000.vercel.app" target="_blank" rel="noopener noreferrer" class="accent-link">FULL APP ↗</a>
+            </div>
+            <div class="wb-body">
+              <p class="wb-caption">
+                Calculates the <strong>Optimal Recognition Point (ORP)</strong> focal index (<code>idx = floor(len × 0.35)</code>) and modulates frame duration across punctuation boundaries.
+              </p>
+
+              <!-- Reticle Display -->
+              <div class="rsvp-stage" aria-live="polite">
+                <div class="reticle-top" aria-hidden="true"></div>
+                <div class="rsvp-word-row mono" id="wb-rsvp-display">
+                  <span class="rsvp-pre" id="wb-pre">de</span><span class="rsvp-orp" id="wb-orp">t</span><span class="rsvp-post" id="wb-post">erministic</span>
+                </div>
+                <div class="reticle-bottom" aria-hidden="true"></div>
+              </div>
+
+              <div class="wb-telemetry mono">
+                <span>WPM: <strong id="wb-wpm-val">450</strong></span>
+                <span>FRAME: <strong id="wb-ms-val">133ms</strong></span>
+                <span>ORP IDX: <strong id="wb-orp-idx">2</strong></span>
+                <span>TOKEN: <strong id="wb-tok-pos">1 / 34</strong></span>
+              </div>
+
+              <div class="wb-controls">
+                <button type="button" class="btn-solid mono" id="wb-rsvp-toggle">PLAY STREAM</button>
+                <button type="button" class="btn-rule mono" id="wb-rsvp-step">STEP +1</button>
+                <button type="button" class="btn-rule mono" id="wb-rsvp-reset">RESET</button>
+                <label class="slider-group mono">
+                  <span>CADENCE</span>
+                  <input type="range" id="wb-wpm-slider" min="200" max="900" step="25" value="450" />
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- WORKBENCH B: PV/BV DIFFERENTIAL ENGINE -->
+          <div class="wb-panel">
+            <div class="panel-header mono">
+              <span>WORKBENCH 02 // 3%–25% PV/BV DIFFERENTIAL SIMULATOR</span>
+              <a href="https://customatter.vercel.app" target="_blank" rel="noopener noreferrer" class="accent-link">FULL APP ↗</a>
+            </div>
+            <div class="wb-body">
+              <p class="wb-caption">
+                Real-time multi-tier volume bracket lookup and differential pass-up calculation across Personal Volume (PV) and 3 downline legs (`BV = PV × 3.42`).
+              </p>
+
+              <div class="calc-sliders mono">
+                <label class="calc-row">
+                  <span>PERSONAL PV: <strong id="wb-pv-label">300 PV</strong></span>
+                  <input type="range" id="wb-pv-input" min="100" max="1500" step="50" value="300" />
+                </label>
+                <label class="calc-row">
+                  <span>LEG A PV: <strong id="wb-lega-label">1,200 PV</strong></span>
+                  <input type="range" id="wb-lega-input" min="0" max="4000" step="100" value="1200" />
+                </label>
+                <label class="calc-row">
+                  <span>LEG B PV: <strong id="wb-legb-label">2,600 PV</strong></span>
+                  <input type="range" id="wb-legb-input" min="0" max="4000" step="100" value="2600" />
+                </label>
+                <label class="calc-row">
+                  <span>LEG C PV: <strong id="wb-legc-label">800 PV</strong></span>
+                  <input type="range" id="wb-legc-input" min="0" max="4000" step="100" value="800" />
+                </label>
+              </div>
+
+              <div class="calc-output mono">
+                <div class="calc-cell">
+                  <span class="cell-label">TOTAL GROUP PV</span>
+                  <span class="cell-val" id="wb-total-pv">4,900 PV</span>
+                </div>
+                <div class="calc-cell">
+                  <span class="cell-label">TIER BRACKET</span>
+                  <span class="cell-val accent-text" id="wb-tier-pct">21%</span>
+                </div>
+                <div class="calc-cell">
+                  <span class="cell-label">DIFFERENTIAL BONUS</span>
+                  <span class="cell-val" id="wb-diff-bonus">$1,415.88</span>
+                </div>
+                <div class="calc-cell">
+                  <span class="cell-label">TOTAL MONTHLY PAYOUT</span>
+                  <span class="cell-val highlight-amber" id="wb-total-payout">$1,724.58</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 03: ARCHITECTURAL DOCTRINE & COGNITIVE EDGE -->
+      <section id="architecture" class="section-block">
+        <div class="section-bar">
+          <div>
+            <p class="section-index mono">SECTION // 03 — ARCHITECTURAL DOCTRINE</p>
+            <h2 class="section-heading">Why Non-CS Neuroscience + Systems Execution Wins in Applied AI</h2>
+          </div>
+        </div>
+
+        <div class="doctrine-grid">
+          <div class="doctrine-cell">
+            <span class="cell-index mono">01 // DETERMINISTIC BOUNDARIES</span>
+            <h3>Schema Contracts Over Prompt Praying</h3>
+            <p>
+              Probabilistic LLM strings never touch UI components directly. Every inference pipeline enforces strict <code>responseSchema</code> JSON contracts, Zod validators, and fallback state machines before rendering.
+            </p>
+          </div>
+          <div class="doctrine-cell">
+            <span class="cell-index mono">02 // COGNITIVE SYSTEMS UX</span>
+            <h3>Psychology &amp; Neuroscience Foundation</h3>
+            <p>
+              Trained in Psychology &amp; Neuroscience at Sarah Lawrence College. I design human-in-the-loop workflows—from ORP focal reticles to Schedule C tax wizards—around human working-memory constraints and rapid decision trust.
+            </p>
+          </div>
+          <div class="doctrine-cell">
+            <span class="cell-index mono">03 // FORWARD-DEPLOYED VELOCITY</span>
+            <h3>7+ Years Quantitative Communication</h3>
+            <p>
+              Seven years of teaching Algebra and Geometry in California public schools and Tower Tutoring means I can sit with any B2B stakeholder, translate messy operational pain into clean architecture, and ship production code in days.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 04: RESUMES & DIRECT DISPATCH -->
+      <section id="credentials" class="section-block">
+        <div class="credentials-banner">
+          <div>
+            <p class="section-index mono">SECTION // 04 — ATS-VERIFIED CREDENTIALS</p>
+            <h2 class="section-heading">Download Production Resumes</h2>
+            <p class="credentials-sub">
+              Single-page, ReportLab-compiled PDF resumes with embedded live deployment and repository links.
+            </p>
+          </div>
+          <div class="credentials-actions">
+            <a
+              href="./resumes/Michael_Jefferson_Applied_AI_Engineer_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-solid btn-large mono"
+              >APPLIED AI &amp; FULL-STACK RESUME (PDF) ↓</a
+            >
+            <a
+              href="./resumes/Michael_Jefferson_FDSE_Solutions_Engineer_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-rule btn-large mono"
+              >FORWARD-DEPLOYED (FDSE) RESUME (PDF) ↓</a
             >
           </div>
         </div>
@@ -366,15 +515,170 @@
     </main>
 
     <footer class="site-footer">
-      <div class="container footer-inner">
-        <span>© 2026 Michael Jefferson · Jefferson Legacy Systems</span>
+      <div class="shell footer-grid mono">
+        <span>© 2026 MICHAEL JEFFERSON // JEFFERSON LEGACY SYSTEMS (VACAVILLE, CA)</span>
         <div class="footer-links">
-          <a href="https://github.com/jeffersonlegacy" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://github.com/jeffersonlegacy/axion-tax" target="_blank" rel="noopener noreferrer">Axion Tax Repo</a>
-          <a href="https://axion-tax.vercel.app" target="_blank" rel="noopener noreferrer">Axion Tax Live</a>
-          <a href="https://tower-hour.vercel.app" target="_blank" rel="noopener noreferrer">Tower Hour Live</a>
+          <a href="https://github.com/jeffersonlegacy" target="_blank" rel="noopener noreferrer">GITHUB</a>
+          <a href="https://axion-tax-beyond.vercel.app" target="_blank" rel="noopener noreferrer">AXION_TAX</a>
+          <a href="https://tower-hour.vercel.app" target="_blank" rel="noopener noreferrer">TOWER_HOUR</a>
+          <a href="https://jefferson-super-reader-3000.vercel.app" target="_blank" rel="noopener noreferrer">SUPER_READER</a>
+          <a href="https://coach-mike-ai.vercel.app" target="_blank" rel="noopener noreferrer">COACH_MIKE</a>
+          <a href="https://customatter.vercel.app" target="_blank" rel="noopener noreferrer">CUSTOMATTER</a>
+          <a href="https://homelab-agent-mesh.vercel.app" target="_blank" rel="noopener noreferrer">AGENT_MESH</a>
         </div>
       </div>
     </footer>
+
+    <script>
+      // WORKBENCH 01: Deterministic ORP RSVP Engine
+      (() => {
+        const sampleText =
+          "Independent tax agencies lose hundreds of billable hours every season to fragmented paper drop-offs. Axion Tax replaces manual intake with a decoupled Vite SPA on Vercel, a hardened Node ESM backend on Render, and automated Playwright to Python PDF synthesis.";
+        const tokens = sampleText.split(/\s+/).filter(Boolean);
+        let idx = 0;
+        let timer = null;
+
+        const preEl = document.getElementById("wb-pre");
+        const orpEl = document.getElementById("wb-orp");
+        const postEl = document.getElementById("wb-post");
+        const wpmVal = document.getElementById("wb-wpm-val");
+        const msVal = document.getElementById("wb-ms-val");
+        const orpIdxEl = document.getElementById("wb-orp-idx");
+        const tokPosEl = document.getElementById("wb-tok-pos");
+        const toggleBtn = document.getElementById("wb-rsvp-toggle");
+        const stepBtn = document.getElementById("wb-rsvp-step");
+        const resetBtn = document.getElementById("wb-rsvp-reset");
+        const slider = document.getElementById("wb-wpm-slider");
+
+        function getOrpIndex(word) {
+          const clean = word.replace(/[^a-zA-Z0-9]/g, "");
+          if (clean.length <= 1) return 0;
+          if (clean.length <= 5) return 1;
+          if (clean.length <= 9) return 2;
+          if (clean.length <= 13) return 3;
+          return 4;
+        }
+
+        function renderToken(i) {
+          const word = tokens[i] || tokens[0];
+          const orp = Math.min(getOrpIndex(word), word.length - 1);
+          preEl.textContent = word.slice(0, orp);
+          orpEl.textContent = word[orp] || "";
+          postEl.textContent = word.slice(orp + 1);
+          const wpm = Number(slider.value);
+          const baseMs = Math.round(60000 / wpm);
+          const mult = /[.!?]$/.test(word) ? 2.0 : /[,;:—]$/.test(word) ? 1.45 : 1.0;
+          const actualMs = Math.round(baseMs * mult);
+          wpmVal.textContent = String(wpm);
+          msVal.textContent = actualMs + "ms";
+          orpIdxEl.textContent = String(orp);
+          tokPosEl.textContent = i + 1 + " / " + tokens.length;
+          return actualMs;
+        }
+
+        function stepNext() {
+          const delay = renderToken(idx);
+          idx = (idx + 1) % tokens.length;
+          if (timer !== null) {
+            timer = setTimeout(stepNext, delay);
+          }
+        }
+
+        toggleBtn.addEventListener("click", () => {
+          if (timer !== null) {
+            clearTimeout(timer);
+            timer = null;
+            toggleBtn.textContent = "PLAY STREAM";
+          } else {
+            toggleBtn.textContent = "PAUSE STREAM";
+            stepNext();
+          }
+        });
+
+        stepBtn.addEventListener("click", () => {
+          if (timer !== null) {
+            clearTimeout(timer);
+            timer = null;
+            toggleBtn.textContent = "PLAY STREAM";
+          }
+          idx = (idx + 1) % tokens.length;
+          renderToken(idx);
+        });
+
+        resetBtn.addEventListener("click", () => {
+          if (timer !== null) {
+            clearTimeout(timer);
+            timer = null;
+            toggleBtn.textContent = "PLAY STREAM";
+          }
+          idx = 0;
+          renderToken(0);
+        });
+
+        slider.addEventListener("input", () => renderToken(idx));
+        renderToken(0);
+      })();
+
+      // WORKBENCH 02: 3%-25% PV/BV Differential Simulator
+      (() => {
+        const BRACKETS = [
+          { min: 7500, pct: 0.25 },
+          { min: 6000, pct: 0.23 },
+          { min: 4000, pct: 0.21 },
+          { min: 2500, pct: 0.18 },
+          { min: 1500, pct: 0.15 },
+          { min: 1000, pct: 0.12 },
+          { min: 600, pct: 0.09 },
+          { min: 300, pct: 0.06 },
+          { min: 100, pct: 0.03 },
+          { min: 0, pct: 0.0 },
+        ];
+        const BV_RATIO = 3.42;
+
+        function getPct(pv) {
+          for (const b of BRACKETS) {
+            if (pv >= b.min) return b.pct;
+          }
+          return 0;
+        }
+
+        const pvIn = document.getElementById("wb-pv-input");
+        const aIn = document.getElementById("wb-lega-input");
+        const bIn = document.getElementById("wb-legb-input");
+        const cIn = document.getElementById("wb-legc-input");
+
+        function updateSim() {
+          const personalPv = Number(pvIn.value);
+          const legs = [Number(aIn.value), Number(bIn.value), Number(cIn.value)];
+          const totalPv = personalPv + legs[0] + legs[1] + legs[2];
+          const myPct = getPct(totalPv);
+
+          document.getElementById("wb-pv-label").textContent = personalPv.toLocaleString() + " PV";
+          document.getElementById("wb-lega-label").textContent = legs[0].toLocaleString() + " PV";
+          document.getElementById("wb-legb-label").textContent = legs[1].toLocaleString() + " PV";
+          document.getElementById("wb-legc-label").textContent = legs[2].toLocaleString() + " PV";
+
+          const personalBonus = personalPv * BV_RATIO * myPct;
+          let diffBonus = 0;
+          for (const legPv of legs) {
+            const legPct = getPct(legPv);
+            const diff = Math.max(0, myPct - legPct);
+            diffBonus += legPv * BV_RATIO * diff;
+          }
+          const retailMargin = personalPv * BV_RATIO * 0.1;
+          const totalPayout = personalBonus + diffBonus + retailMargin;
+
+          document.getElementById("wb-total-pv").textContent = totalPv.toLocaleString() + " PV";
+          document.getElementById("wb-tier-pct").textContent = Math.round(myPct * 100) + "%";
+          document.getElementById("wb-diff-bonus").textContent =
+            "$" + diffBonus.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+          document.getElementById("wb-total-payout").textContent =
+            "$" + totalPayout.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        }
+
+        [pvIn, aIn, bIn, cIn].forEach((el) => el.addEventListener("input", updateSim));
+        updateSim();
+      })();
+    </script>
   </body>
 </html>
